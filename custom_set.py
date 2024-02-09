@@ -13,6 +13,8 @@ class CustomSet:
         """Remove an item from the list"""
         if item in self.my_set:
             return self.my_set.remove(item)
+        else:
+            raise KeyError
 
     def as_list(self):
         """Returns all the items in the list"""
