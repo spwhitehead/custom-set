@@ -4,18 +4,14 @@ class CustomSet:
 
     def add(self, item: str):
         """Add an item to the list"""
-        for i in range(len(self.my_set[])):
-            if item not in self.my_set[]:
-                my_set.add[item]
-                i += 1
-                return my_set[]
-            else:
-                return "Item already in set"
-            
+        if item not in self.my_set[]:
+           return self.my_set.add(item)
+
 
     def remove(self, item: str):
         """Remove an item from the list"""
-        pass
+        if item in self.my_set[]:
+            return self.my_set.remove(item)
 
     def as_list(self):
         """Returns all the items in the list"""
