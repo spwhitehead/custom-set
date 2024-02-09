@@ -16,11 +16,11 @@ class CustomSet:
 
     def as_list(self):
         """Returns all the items in the list"""
-        print(self.my_set)
+        return self.my_set
 
     def clear(self):
         """Removes all the items from the list"""
-        self.my_set.clear()
+        self.my_set = []
 
 def main():
     my_set = CustomSet()
