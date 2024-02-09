@@ -1,25 +1,26 @@
 class CustomSet:
     def __init__(self):
-        my_set = []
+    
+        self.my_set = []
 
     def add(self, item: str):
         """Add an item to the list"""
-        if item not in self.my_set[]:
-           return self.my_set.add(item)
+        if item not in self.my_set:
+           return self.my_set.append(item)
 
 
     def remove(self, item: str):
         """Remove an item from the list"""
-        if item in self.my_set[]:
+        if item in self.my_set:
             return self.my_set.remove(item)
 
     def as_list(self):
         """Returns all the items in the list"""
-        print self.my_set[]
+        print(self.my_set)
 
     def clear(self):
         """Removes all the items from the list"""
-        self.my_set[].clear()
+        self.my_set.clear()
 
 def main():
     my_set = CustomSet()
