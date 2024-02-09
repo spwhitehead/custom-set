@@ -1,10 +1,17 @@
 class CustomSet:
     def __init__(self):
-        pass
+        my_set = []
 
     def add(self, item: str):
         """Add an item to the list"""
-        pass
+        for i in range(len(self.my_set[])):
+            if item not in self.my_set[]:
+                my_set.add[item]
+                i += 1
+                return my_set[]
+            else:
+                return "Item already in set"
+            
 
     def remove(self, item: str):
         """Remove an item from the list"""
